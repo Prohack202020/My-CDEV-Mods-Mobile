@@ -105,8 +105,6 @@ class FunkinMain extends Sprite
 		FlxG.fullscreen = true;
 		trace("Init: Device Window - Fullscreen");
         var targetAspectRatio:Float = width / height;
-	public function setFpsVisibility(fpsEnabled:Bool):Void { fpsCounter.visible = fpsEnabled; }
-
 	// i just looked into this file again and what the hell is this
 	public function isPlayState():Bool { return playState; }
 
