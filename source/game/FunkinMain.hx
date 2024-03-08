@@ -104,7 +104,7 @@ class FunkinMain extends Sprite
 		trace("Init: Device Window - Mobile");
 		FlxG.fullscreen = true;
 		trace("Init: Device Window - Fullscreen");
-        var targetAspectRatio:Float = width / height;
+        var targetAspectRatio:Float = width / height; }
 	// i just looked into this file again and what the hell is this
 	public function isPlayState():Bool { return playState; }
 
